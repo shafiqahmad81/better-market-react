@@ -8,7 +8,7 @@ import Input from "../components/input/Input"
           <div className=" overflow-hidden lg:max-w-1160 md:flex mx-auto flex-wrap justify-center rounded-3xl md:rounded-6xl">
             <div className=" bg-[#084B3E;] p-4 md:p-55 sm:p-8 flex flex-col justify-between md:w-left">
               <div>
-                <img src={Logo}/>
+                <img src={Logo} alt="Logo"/>
               </div>
               <h2 className="text-yellow text-2.9xl mt-12 mb-8 leading-45 md:mb-0">Say hello to global food and beverage producers and suppliers, all in one place</h2>
             </div>
@@ -30,7 +30,7 @@ import Input from "../components/input/Input"
                 <Button text="Sign up" />
               </form>
               <div className="text-gray-light text-sm font-semibold w-310 max-w-full mb-6 md:mb-0">
-                <p>By signing up, you agree to our <a className="underline" href="#">Terms of Service.</a> Already have an account? <a href="#" className="underline text-green">Log in</a></p>
+                <p>By signing up, you agree to our <a className="underline" href="/">Terms of Service.</a> Already have an account? <a href="/" className="underline text-green">Log in</a></p>
               </div>
             </div>
           </div>
